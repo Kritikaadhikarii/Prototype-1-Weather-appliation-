@@ -1,0 +1,165 @@
+body {
+    /* position: relative; */
+    width: 1440;
+    height: 1117px;
+    background-color: #9FACA5;
+    text-align: center;
+    padding: 40px;
+}
+
+.main{
+  border-radius: 30px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.20) 22.40%, rgba(63, 126, 88, 0.20) 57.29%, rgba(0, 0, 0, 0.00) 100%), #6185A0;
+  box-shadow: 10px -10px 10px 0px rgba(0, 0, 0, 0.25);
+
+  background-image: url(Frame\ 1\ \(1\).png);
+
+  /* #b2c1cd */
+
+  /* fill: linear-gradient(180deg, #1A2DDB 8.94%, rgba(51, 69, 231, 0.00) 58.33%);
+opacity: 0.23999999463558197;
+filter: drop-shadow(40px -40px 60px rgba(33, 52, 221, 0.50)); */
+}
+
+#header{
+ font-size: 60px;
+ color: #daebe0;
+ text-decoration: underline;
+ 
+ /* color: black; */
+font-size: 90px;
+font-family: Inter;
+font-weight: 200;
+word-wrap: break-word
+}
+
+#search img{
+  width: 25px;
+  height: 25px;
+  justify-content: safe;
+}
+
+input{
+  width: 500px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 84px;
+  background: #daebe0;;
+  text-align: center;
+  font-size: 20px;
+  border: none;   
+  border-radius: 84px;
+  box-shadow: 10px -5px 15px 10px #C1D2DE inset;
+}
+
+button{
+
+    background: #daebe0;;
+    box-shadow: 10px -5px 15px 10px #C1D2DE inset;
+    /* box-shadow: 4px -4px 8px 0px rgba(0, 0, 0, 0.25) inset, -4px 4px 8px 0px rgba(0, 0, 0, 0.25); */
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: larger;
+}
+
+img{
+  width: 150px;
+}
+
+.card{
+  /* background-color: rgb(60, 97, 97);
+  border-radius: 40px;
+  margin:30px; */
+
+  /* background: linear-gradient(135deg, #FEE3BC 0%, #F39876 100%); */
+  align-items: center;
+
+}
+
+
+footer{
+  color: #3C6161;
+}
+
+
+.city-name{
+  border-radius: 10px;
+  border: 0.5px solid rgba(255, 255, 255, 0.50);
+  background: rgba(255, 255, 255, 0.36);
+  display: inline;
+}
+
+
+.error-message{
+  color: #3C6161;
+  border-radius: 15px;
+  background-color: #C1D2DE;
+  text-align: center;
+  width:60%px;
+  height: auto;
+  display: inline;
+}
+
+.daydate{
+  color: bisque;
+}
+
+.weathercondition{
+  text-decoration: underline;
+}
+
+.temperature{
+  border-radius: 10px;
+border: 0.5px solid rgba(255, 255, 255, 0.50);
+background: rgba(255, 255, 255, 0.36);
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+/* width: 60px; */
+
+}
+
+.windSpeed{
+  border-radius: 10px;
+border: 0.5px solid rgba(255, 255, 255, 0.50);
+background: rgba(255, 255, 255, 0.36);
+/* width: fit-content;
+display: inline; */
+
+display: flex;
+justify-content: center;
+}
+
+.icon{
+  border-radius: 50%;
+  border: 0.5px solid rgba(255, 255, 255, 0.50);
+  background: rgba(255, 255, 255, 0.36);
+}
+
+.pressure{
+  border-radius: 15px;
+  border: 0.5px solid rgba(255, 255, 255, 0.50);
+  background: rgba(255, 255, 255, 0.36);
+  display: inline-flex;
+  justify-content: center;
+  height: 30px;
+  padding: 20px;
+}
+
+.humidity{
+  border-radius: 15px;
+  border: 0.5px solid rgba(255, 255, 255, 0.50);
+  background: rgba(255, 255, 255, 0.36);
+  display: inline-flex;
+  justify-content: center;
+  height: 30px;
+  padding: 20px;
+  
+}
+
+.weatherCondition{
+
+  color: #AF8F80;
+  text-decoration: underline;
+}
